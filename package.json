@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
+    "html-pdf-node": "^1.0.8",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
+    "puppeteer": "^22.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
