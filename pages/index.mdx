@@ -1,0 +1,18 @@
+```jsx filename="src/app/layout.tsx"  showLineNumbers {9,11}
+// imports
+// initial code
+
+export default function RootLayout(...) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <Header title={metadata.title as string} />
+        <div className="m-3">
+          {children}
+        </div>
+      </body>
+    </html>
+  )
+}
+
+```
