@@ -1,4 +1,16 @@
-# Nextra Docs Template 
+Exemplos:
+
+do nextra: https://nextra.site/docs/guide/syntax-highlighting
+
+ex basico:
+
+```jsx filename="/src/app/categories/new/page.tsx"  {20-22}
+...
+...
+...
+```
+
+# Nextra Docs Template
 
 This is a template for creating documentation with [Nextra](https://nextra.site).
 
